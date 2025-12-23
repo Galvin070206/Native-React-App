@@ -31,3 +31,49 @@ The project consists of a **backend API** and a **mobile application**, built wi
 
 ## 📂 Project Structure
 
+monthly-savings-tracker/
+│
+├── backend/ # Backend source code
+├── mobile/ # React Native mobile application
+├── README.md # Project documentation
+└── .gitignore
+
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+```bash
+git clone https://github.com/Galvin070206/Native-React-App.git
+cd Native-React-App
+
+Backend Setup
+
+cd backend
+npm install        # or pip install -r requirements.txt
+npm start          # or python app.py
+
+Mobile App Setup
+
+cd mobile
+npm install
+npm start
+
+    Make sure you have Node.js and npm installed before running the project.
+
+🔒 Environment Variables
+
+Create a .env file (if required) and add necessary configuration values such as:
+
+API_URL=your_backend_url
+
+    ⚠️ Do not commit .env files to GitHub.
+
+📌 Git Best Practices Used
+
+    node_modules excluded using .gitignore
+
+    Clean commit history
+
+    Proper branch naming (main)
